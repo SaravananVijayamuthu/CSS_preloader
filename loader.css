@@ -8,7 +8,7 @@ body {
 }
 span {
     animation: bottom-ripple 1s ease-in-out infinite -50ms;
-    background-color: #fc5185;
+    background-color: #FF9933;
     border-radius: 15px;
     box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.4);
     height: 12em;
@@ -26,14 +26,14 @@ span::after {
 }
 span::before {
     animation: middle-ripple 1s ease-in-out infinite -25ms;
-    background-color: #364f6b;
+    background-color: #FFFFFF;
     height: 8em;
     margin: -4em 0 0 -4em;
     width: 8em;
 } 
 span::after {
     animation: top-ripple 1s ease-in-out infinite;
-    background-color: #43dde6;
+    background-color: #138808;
     height: 4em;
     margin: -2em 0 0 -2em;
     width: 4em;
